@@ -4,7 +4,6 @@ import Transaction from './Transaction';
 
 
 function TransactionList() {
-
   const { transactions } = useContext(GlobalContext);
 
   return (

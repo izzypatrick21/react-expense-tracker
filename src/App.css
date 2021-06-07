@@ -16,19 +16,19 @@ body {
   align-items: center; 
   justify-content: center;
   min-height: 100vh;
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Lato', sans-serif;
 }
 
 .App {
-  min-width: 450px;
+  min-width: 200px;
   margin: 30px auto;
   overflow: auto;
-  min-height: 300px;
+  min-height: 400px;
   padding: 30px;
   border: 1px solid rgb(4, 31, 53);
   border-radius: 35px;
-  background-color: #79788d;
+  background-color: rgb(83, 66, 95);
 }
 
 h1 {
@@ -164,3 +164,15 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+@media screen and (max-width : 400px) {
+  body{
+    max-width: 90vw;
+  }
+
+  .App{
+    max-width: 90vw;
+  }
+}
+
+
